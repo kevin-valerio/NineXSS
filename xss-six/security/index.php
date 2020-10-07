@@ -43,9 +43,19 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Pricing</h1>
-    <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example.
-        It’s built with default Bootstrap components and utilities with little customization.</p>
+    <h1 class="display-4">Unsanitized HTML Markup XSS</h1>
+    <p class="lead">In pricing variable, please add some HTML. Try to break me ! (you will be able to add default HTML
+    tags such as u or h1, but no JS)</p>
+
+    <script src="https://cdn.jsdelivr.net/gh/jitbit/HtmlSanitizer@master/HtmlSanitizer.js"></script>
+
+    <script>
+        HtmlSanitizer.AllowedTags['s'] = true;
+
+        var html = HtmlSanitizer.SanitizeHtml("<?php echo($_GET["pricing"]); ?>");
+        document.write(html);
+    </script>
+
 </div>
 
 <div class="container">

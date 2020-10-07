@@ -26,10 +26,6 @@
                 font-size: 3.5rem;
             }
         }
-        body {
-            background-color: <?php echo(htmlspecialchars ($_GET["color"])); ?> !important;
-        }
-
     </style>
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
@@ -47,9 +43,14 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">CSS Encode And Strictly Validate Before Inserting Untrusted Data into HTML Style Property Values</h1>
-    <p class="lead">Injecting code leading to JS execution in CSS style</p>
+    <h1 class="display-4">Avoid JavaScript URLs</h1>
+    <p class="lead">Avoid javascript: tag</p>
+
+    <img src="xxx" onerror="javascript: alert('<?php echo(htmlspecialchars($_GET["pricing"])); ?>')">
+    <!--    Payload example : "%27><svg/onload=alert(3);%20/>-->
+
 </div>
+
 
 <div class="container">
     <div class="card-deck mb-3 text-center">
@@ -63,10 +64,11 @@
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
-                    <li>2 GB</li>
+                    <li>2 GB                          </i></li>
                     <li>Email support</li>
                     <li>Help center access</li>
 
+                    <a href="http://www.somesite.com?test=<?php echo($_GET["price"]) ?>">Malicious link</a>
 
                 </ul>
                 <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
@@ -79,7 +81,7 @@
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                    <li  style="font-size: <?php echo(isset($_GET["price"]) ? htmlspecialchars(($_GET["price"]) ): 15) ?>px">20 users included</li>
+                    <li>20 users included</li>
                     <li>10 GB of storage</li>
                     <li>Priority email support</li>
                     <li>Help center access</li>

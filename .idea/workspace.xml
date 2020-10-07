@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e897a6-beca-49e8-bc9b-f95a01f2ae15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xss-five/attack/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xss-five/attack/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xss-five/attack/pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xss-five/security/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xss-five/security/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xss-five/security/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/attack/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/attack/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/attack/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/security/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/security/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-height/security/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/attack/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/attack/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/attack/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/security/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/security/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xss-seven/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Nine XSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Nine XSS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-five/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-five/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-four/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-four/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-one/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-one/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-six/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-six/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-three/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-three/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-two/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-two/security/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +40,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1iXS9wBIh52VvWYHtsSFPrRppPQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -31,26 +61,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xss-five/security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\security" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\attack" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-five\security" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-four\security" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-three\security" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-two\security" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\security" />
+      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\attack" />
+      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one" />
     </key>
   </component>
   <component name="RunManager">
@@ -65,6 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PHP" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +112,7 @@
       <workItem from="1602052296819" duration="1086000" />
       <workItem from="1602053408771" duration="420000" />
       <workItem from="1602053953939" duration="2858000" />
+      <workItem from="1602084103660" duration="3691000" />
     </task>
     <task id="LOCAL-00001" summary="XSS One">
       <created>1602054357019</created>
@@ -109,28 +145,63 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="XSS One" />
     <MESSAGE value="XSS Three" />
     <MESSAGE value="XSS Four" />
     <option name="LAST_COMMIT_MESSAGE" value="XSS Four" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602052630763">
+    <state x="540" y="194" key="#CLI_Interpreters" timestamp="1602084274992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="540" y="194" key="#CLI_Interpreters/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084274992" />
+    <state x="667" y="182" key="#PHP" timestamp="1602084279994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="182" key="#PHP/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084279994" />
+    <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602084282580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084282580" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602052630763" />
     <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1602056324227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602056324227" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602054321853">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602084269566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084269566" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1602084306419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084306419" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1602084306419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084306419" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1602084306419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084306419" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1602084306419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084306419" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602084134291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084134291" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602054321853" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602056326523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602056326523" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602086268220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602086268220" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602052783705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

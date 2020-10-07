@@ -43,8 +43,8 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">Pricing</h1>
-  <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+    <h1 class="display-4">HTML Common Attributes XSS</h1>
+    <p class="lead">XSS in div class</p>
 </div>
 
 <div class="container">
