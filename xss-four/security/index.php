@@ -26,6 +26,10 @@
                 font-size: 3.5rem;
             }
         }
+        body {
+            background-color: <?php echo(htmlspecialchars ($_GET["color"])); ?> !important;
+        }
+
     </style>
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
@@ -59,17 +63,7 @@
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
-                    <li>2 GB  
-                        (<i>10€ * gigabytes =
-
-                            <script>
-                                quantity = 2;
-                                price = <?php echo($_GET["price"]); ?>;
-
-                                document.write(price + "€)");
-                            </script>
-
-                        </i></li>
+                    <li>2 GB</li>
                     <li>Email support</li>
                     <li>Help center access</li>
 
@@ -85,7 +79,7 @@
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
+                    <li  style="font-size: <?php echo(isset($_GET["price"]) ? htmlspecialchars(($_GET["price"]) ): 15) ?>px">20 users included</li>
                     <li>10 GB of storage</li>
                     <li>Priority email support</li>
                     <li>Help center access</li>

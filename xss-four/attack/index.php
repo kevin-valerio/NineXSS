@@ -26,6 +26,10 @@
                 font-size: 3.5rem;
             }
         }
+        body {
+            background-color: <?php echo($_GET["color"]); ?> !important;
+        }
+
     </style>
     <!-- Custom styles for this template -->
     <link href="pricing.css" rel="stylesheet">
@@ -75,7 +79,7 @@
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
+                    <li  style="font-size: <?php echo(isset($_GET["price"]) ? ($_GET["price"]) : 15) ?>px">20 users included</li>
                     <li>10 GB of storage</li>
                     <li>Priority email support</li>
                     <li>Help center access</li>
