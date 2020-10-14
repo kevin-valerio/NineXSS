@@ -51,6 +51,8 @@
 
     <script>
         HtmlSanitizer.AllowedTags['s'] = true;
+        HtmlSanitizer.AllowedTags['b'] = true;
+        HtmlSanitizer.AllowedTags['h1'] = true;
 
         var html = HtmlSanitizer.SanitizeHtml("<?php echo($_GET["pricing"]); ?>");
         document.write(html);
