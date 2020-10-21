@@ -43,7 +43,7 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Inserting Untrusted Data into JavaScript Data Valuesh1>
+    <h1 class="display-4">DOM-based XSS</h1>
     <p class="lead"> Inserting Untrusted Data into JavaScript Data Values leading to XSS</p>
 </div>
 
@@ -57,19 +57,21 @@
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
+                <ul id="p1" class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
-                    <li>2 GB  
-                        (<i>10€ * gigabytes =
 
-                            <script>
-                                quantity = 2;
-                                price = <?php echo($_GET["price"]); ?>;
 
-                                document.write(price + "€)");
-                            </script>
+                    <script>
+                        let x = document.createElement("a");
 
-                        </i></li>
+                        x.setAttribute("href", "<?php echo($_GET["price"]); ?>");
+                        let y = document.createTextNode("Simple test XSS");
+                        x.appendChild(y);
+                        document.body.appendChild(x);
+                        let p1 = document.getElementById("p1");
+                        p1.appendChild(x);
+                    </script>
+
                     <li>Email support</li>
                     <li>Help center access</li>
 

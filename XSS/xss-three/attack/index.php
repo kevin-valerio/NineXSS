@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
 
     <!-- Bootstrap core CSS -->
-    <link href="../attack/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -28,7 +28,7 @@
         }
     </style>
     <!-- Custom styles for this template -->
-    <link href="../attack/pricing.css" rel="stylesheet">
+    <link href="pricing.css" rel="stylesheet">
 </head>
 <body>
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
@@ -43,7 +43,7 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">DOM-based XSS</h1>
+    <h1 class="display-4">Inserting Untrusted Data into JavaScript Data Valuesh1>
     <p class="lead"> Inserting Untrusted Data into JavaScript Data Values leading to XSS</p>
 </div>
 
@@ -57,21 +57,18 @@
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                <ul id="p1" class="list-unstyled mt-3 mb-4">
+                <ul class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
+                    <li>2 GB  
+                        (<i>10€ * gigabytes =
 
+                            <script>
+                                quantity = 2;
+                                price = <?php echo($_GET["price"]); ?>;
+                                document.write(price + "€)");
+                            </script>
 
-                    <script>
-                        let x = document.createElement("a");
-
-                        x.setAttribute("href", "<?php echo($_GET["price"]); ?>");
-                        let y = document.createTextNode("Simple test XSS");
-                        x.appendChild(y);
-                        document.body.appendChild(x);
-                        let p1 = document.getElementById("p1");
-                        p1.appendChild(x);
-                    </script>
-
+                        </i></li>
                     <li>Email support</li>
                     <li>Help center access</li>
 

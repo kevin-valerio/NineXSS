@@ -1,10 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27e897a6-beca-49e8-bc9b-f95a01f2ae15" name="Default Changelist" comment="">
+    <list default="true" id="27e897a6-beca-49e8-bc9b-f95a01f2ae15" name="Default Changelist" comment="XSS Four">
+      <change afterPath="$PROJECT_DIR$/XSS/xss-five/attack/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSS/xss-two/attack/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSS/xss-two/attack/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSS/xss-two/security/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XSS/xss-two/security/pricing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XXE/attack/xxe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XXE/defense/xxe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xss-seven/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-seven/security/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xss-six/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/xss-six/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Session Management/session-one/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Session Management/session-one/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/Session Management/session-one/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Session Management/session-one/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-five/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-five/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/Session Management/session-one/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-five/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-five/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-five/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-four/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-five/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-height/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-four/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-nine/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-height/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-one/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-nine/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-seven/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-one/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-six/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-seven/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-three/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-six/security/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/attack/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/attack/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/attack/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-two/attack/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/attack/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/attack/pricing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/security/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/security/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/security/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-two/security/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xss-two/security/pricing.css" beforeDir="false" afterPath="$PROJECT_DIR$/XSS/xss-three/security/pricing.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +99,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xss-nine/attack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/XXE" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS\XXE\attack" />
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS\XSS" />
       <recent name="C:\Users\Utilisateur\Desktop\NineXSS\xss-nine\security" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\security" />
       <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one\attack" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-one" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS\XXE" />
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS\XEE" />
+      <recent name="C:\Users\Utilisateur\Desktop\NineXSS\Session Management" />
       <recent name="C:\Users\Utilisateur\Desktop\NineXSS\xss-nine\attack" />
       <recent name="C:\Users\Utilisateur\Desktop\NineXSS" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-five\security" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS" />
-      <recent name="C:\Users\consl\Desktop\Secu. web\Nine XSS\xss-four\security" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,7 +150,10 @@
       <workItem from="1602084103660" duration="3723000" />
       <workItem from="1602527004837" duration="661000" />
       <workItem from="1602608852363" duration="5083000" />
-      <workItem from="1602688772701" duration="190000" />
+      <workItem from="1602688772701" duration="547000" />
+      <workItem from="1602706652483" duration="440000" />
+      <workItem from="1602949338339" duration="1353000" />
+      <workItem from="1603278663206" duration="2443000" />
     </task>
     <task id="LOCAL-00001" summary="XSS One">
       <created>1602054357019</created>
@@ -127,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602620230911</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="XSS Four">
+      <created>1602689266216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602689266216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,48 +227,64 @@
     </state>
     <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084282580" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602052630763" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1602620230408">
+    <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602949393814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620230408" />
+    <state x="735" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602949393814" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602952704601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602952704601" />
+    <state x="585" y="88" width="1209" height="907" key="CommitChangelistDialog2" timestamp="1602707093875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" width="1209" height="907" key="CommitChangelistDialog2/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602707093875" />
     <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602056324227" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602084269566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084269566" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1602620253456">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1602707094569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620253456" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1602620253456">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602707094569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1602707094569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620253456" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1602620253455">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602707094569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1602707094569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620253455" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1602620253456">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602707094569" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1602707094569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620253456" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602084134291">
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602707094569" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603279385874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602084134291" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1603279385874" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603279353283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1603279353283" />
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602054321853" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602620232713">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1602689267795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602620232713" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602689267795" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602056326523" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602086268220">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602706734438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602086268220" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602706734438" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602052783705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602052783705" />
+    <state x="623" y="235" width="672" height="668" key="search.everywhere.popup" timestamp="1602949383256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="235" width="672" height="668" key="search.everywhere.popup/0.0.1920.1040/-1280.44.1280.984/1920.-1.1920.1040@0.0.1920.1040" timestamp="1602949383256" />
   </component>
 </project>
