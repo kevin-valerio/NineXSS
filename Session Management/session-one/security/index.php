@@ -1,7 +1,15 @@
 <?php
 
- session_start();
- $_SESSION['prenom'] = 'Jean';
+
+$secure = false; // on veut l'activer, mais le serveur local pour la démo n'est qu'en HTTP
+$httponly = true;
+$samesite = 'lax';
+
+session_set_cookie_params(33333, '/; samesite='.$samesite, $_SERVER['HTTP_HOST'], $secure, $httponly);
+session_start();
+
+
+$_SESSION['prenom'] = 'Jean';
  $_SESSION['nom'] = 'Dupont';
  $_SESSION['age'] = 24;
 
