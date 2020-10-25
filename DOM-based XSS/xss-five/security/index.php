@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
 
     <!-- Bootstrap core CSS -->
-    <link href="../attack/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -28,7 +28,7 @@
         }
     </style>
     <!-- Custom styles for this template -->
-    <link href="../attack/pricing.css" rel="stylesheet">
+    <link href="pricing.css" rel="stylesheet">
 </head>
 <body>
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
@@ -42,11 +42,11 @@
     <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
 
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">DOM-based XSS</h1>
-    <p class="lead"> Inserting Untrusted Data into JavaScript Data Values leading to XSS</p>
-</div>
 
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">URL Encode Before Inserting Untrusted Data into HTML URL Parameter Values</h1>
+    <p class="lead">Non-decodedd URL might lead to XSS</p>
+</div>
 <div class="container">
     <div class="card-deck mb-3 text-center">
         <div class="card mb-4 shadow-sm">
@@ -57,51 +57,13 @@
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                <ul id="p1" class="list-unstyled mt-3 mb-4">
+                <ul class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
-
-
-                    <script>
-                        <?php
-                            /*
-                             *
-                             *
-                             * DOM XSS
-                             *
-                             *
-                             */
-
-
-                        //Charge les rsc que de localhost
-                        header("Content-Security-Policy: default-src: 'self'; script-src: 'self' localhost\n");
-                        //Enables XSS filtering (usually default in browsers).
-                        // If a cross-site scripting attack is detected, the browser will sanitize the page (remove the unsafe parts).
-                        header("X-XSS-Protection: 1;");
-
-                        $secure = false; // on veut l'activer, mais le serveur local pour la démo n'est qu'en HTTP
-                        $httponly = true;
-                        $samesite = 'lax';
-
-                        setcookie("TestCookie", "secret", time() + 3600, "/XSS/xss-nine/security/", "localhost", 0, 1);
-                        session_set_cookie_params(33333, '/; samesite=' . $samesite, $_SERVER['HTTP_HOST'], $secure, $httponly);
-
-                        ?>
-
-
-                        let x = document.createElement("a");
-                        x.setAttribute("href", "<?php  echo(htmlspecialchars($_GET["price"])); ?>");
-                        let y = document.createTextNode("Simple test XSS");
-                        x.appendChild(y);
-
-                        document.body.appendChild(x);
-                        let p1 = document.getElementById("p1");
-                        p1.appendChild(x);
-
-                    </script>
-
+                    <li>2 GB                          </i></li>
                     <li>Email support</li>
                     <li>Help center access</li>
 
+                    <a href="http://www.somesite.com?test=<?php echo(urlencode($_GET["price"])) ?>">Malicious link</a >
 
                 </ul>
                 <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
