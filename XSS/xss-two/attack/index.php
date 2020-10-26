@@ -51,9 +51,11 @@
     <div class="card-deck mb-3 text-center">
         <div class="card mb-4 shadow-sm">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal <?php echo(isset($_GET["price"]) ? ($_GET["price"]) : '') ?>">
-                    Beginner
-                </h4>
+
+                <h4 class="my-0 font-weight-normal <?php
+                    echo(isset($_GET["class"]) ? ($_GET["class"]) : '')
+                ?>">Beginner</h4>
+
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>

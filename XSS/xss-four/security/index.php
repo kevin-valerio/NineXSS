@@ -27,7 +27,9 @@
             }
         }
         body {
-            background-color: <?php echo(htmlspecialchars ($_GET["color"])); ?> !important;
+            background-color:
+            <?php echo(htmlspecialchars($_GET["color"])); ?>
+            !important;
         }
 
     </style>

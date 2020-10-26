@@ -65,8 +65,10 @@
 
                             <script>
                                 quantity = 2;
-                                price = <?php echo(preg_replace( '/[^0-9]/', '', $_GET["price"]) ); ?>;
-
+                                price = <?php echo(
+                                        preg_replace( '/[^0-9]/',
+                                            '', $_GET["price"])
+                                ); ?>;
                                 document.write(price + "€)");
                             </script>
 

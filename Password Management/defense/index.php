@@ -16,13 +16,11 @@ $usr = $_GET["username"];
 if (isset($usr)) {
 
     $pepper = "F3DcxH9BvAXO0iiHORMwTgUHBJc0YVyk6DIrVbHH"; //Random string as pepper
-
     $options = [
-        'cost' => 12, //Meilleure sécurité. Recommandé
+        'cost' => 12, //Better security. Recommanded
     ];
 
     $usrPasswd = password_hash(hash("sha256", $pepper . $password), PASSWORD_DEFAULT, $options);
-
 
     $query = "INSERT INTO secure_users(username,passwd,mail) VALUES ('$usr', '$usrPasswd', 'demo@demo.fr')";
     if (mysqli_query($conn, $query)) {

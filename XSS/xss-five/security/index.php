@@ -63,7 +63,9 @@
                     <li>Email support</li>
                     <li>Help center access</li>
 
-                    <a href="http://www.somesite.com?test=<?php echo(urlencode($_GET["price"])) ?>">Malicious link</a >
+                    <a href="http://www.somesite.com?test=
+                    <?php echo(urlencode($_GET["price"])) ?>">
+                        Malicious link</a >
 
                 </ul>
                 <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>

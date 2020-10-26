@@ -63,7 +63,6 @@
 
                     <script>
                         let x = document.createElement("a");
-
                         x.setAttribute("href", "<?php echo($_GET["price"]); ?>");
                         let y = document.createTextNode("Simple test XSS");
                         x.appendChild(y);

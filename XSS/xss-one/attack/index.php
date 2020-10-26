@@ -51,13 +51,15 @@
   <div class="card-deck mb-3 text-center">
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">
+          <h4 class="my-0 font-weight-normal">
+              <!-- A simple commentary, starting here
             <?php
-                if(isset($_GET["price"])) {
-                    echo($_GET["price"]);
-                }
-            ?>
-        </h4>
+              if(isset($_GET["price"])) {
+                  echo($_GET["price"]);
+              }
+              ?>
+            -->
+          </h4>
       </div>
       <div class="card-body">
         <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>

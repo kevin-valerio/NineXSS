@@ -46,7 +46,11 @@
     <h1 class="display-4">Avoid JavaScript URLs</h1>
     <p class="lead">Avoid javascript: tag</p>
 
-    <img src="xxx" onerror="javascript: alert('<?php echo(str_replace("'", '', htmlspecialchars($_GET["pricing"]))); ?>')">
+    <img src="xxx"
+         onerror="javascript:
+                 alert('<?php echo(str_replace("'", '',
+             htmlspecialchars($_GET["pricing"]))); ?>')">
+
     <!--    Payload example : "%27><svg/onload=alert(3);%20/>-->
 
 </div>
