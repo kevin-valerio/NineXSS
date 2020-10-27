@@ -28,7 +28,7 @@
         }
         body {
             background-color:
-            <?php echo(htmlspecialchars($_GET["color"])); ?>
+            <?php echo(strip_tags(htmlspecialchars($_GET["color"]))); ?>
             !important;
         }
 

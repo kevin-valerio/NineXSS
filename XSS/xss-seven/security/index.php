@@ -49,7 +49,7 @@
     <img src="xxx"
          onerror="javascript:
                  alert('<?php echo(str_replace("'", '',
-             htmlspecialchars($_GET["pricing"]))); ?>')">
+             strip_tags(htmlspecialchars($_GET["pricing"])))); ?>')">
 
     <!--    Payload example : "%27><svg/onload=alert(3);%20/>-->
 

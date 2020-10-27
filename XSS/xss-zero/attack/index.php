@@ -52,7 +52,7 @@
         <div class="card mb-4 shadow-sm">
             <div class="card-header">
                 <h4>
-                    <?php echo($_GET["price"]); ?>
+                    <?php echo(htmlspecialchars($_GET["price"])); ?>
                 </h4>
             </div>
             <div class="card-body">

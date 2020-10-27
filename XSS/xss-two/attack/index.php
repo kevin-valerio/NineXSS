@@ -52,9 +52,11 @@
         <div class="card mb-4 shadow-sm">
             <div class="card-header">
 
-                <h4 class="my-0 font-weight-normal <?php
+                <h4 class="my-0 font-weight-normal
+                <?php
                     echo(isset($_GET["class"]) ? ($_GET["class"]) : '')
-                ?>">Beginner</h4>
+                ?>">
+                    Beginner</h4>
 
             </div>
             <div class="card-body">

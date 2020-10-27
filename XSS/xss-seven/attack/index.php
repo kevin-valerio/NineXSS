@@ -46,10 +46,7 @@
     <h1 class="display-4">Avoid JavaScript URLs</h1>
     <p class="lead">Avoid javascript: tag</p>
 
-    <img src="xxx"
-         onerror="javascript:
-                 alert('<?php echo($_GET["pricing"]); ?>')
-                 ">
+    <img src="xxx"  onerror="javascript: alert('<?php echo($_GET["pricing"]); ?>') ">
 
 </div>
 

@@ -74,25 +74,19 @@
 
                         //Charge les rsc que de localhost
                         header("Content-Security-Policy: default-src: 'self'; script-src: 'self' localhost\n");
-                        //Enables XSS filtering (usually default in browsers).
                         // If a cross-site scripting attack is detected, the browser will sanitize the page (remove the unsafe parts).
                         header("X-XSS-Protection: 1;");
-
                         $secure = false; // on veut l'activer, mais le serveur local pour la démo n'est qu'en HTTP
                         $httponly = true;
-                        $samesite = 'lax';
-
                         setcookie("TestCookie", "secret", time() + 3600, "/XSS/xss-nine/security/", "localhost", 0, 1);
-                        session_set_cookie_params(33333, '/; samesite=' . $samesite, $_SERVER['HTTP_HOST'], $secure, $httponly);
+                        session_set_cookie_params(33333, '/; samesite=' . 'lax', $_SERVER['HTTP_HOST'], $secure, $httponly);
 
                         ?>
-
 
                         let x = document.createElement("a");
                         x.setAttribute("href", "<?php  echo(htmlspecialchars($_GET["price"])); ?>");
                         let y = document.createTextNode("Simple test XSS");
                         x.appendChild(y);
-
                         document.body.appendChild(x);
                         let p1 = document.getElementById("p1");
                         p1.appendChild(x);

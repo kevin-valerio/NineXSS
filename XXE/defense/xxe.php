@@ -30,6 +30,6 @@ $creds = simplexml_import_dom($dom);
 $user = $creds->user;
 $pass = $creds->pass;
 
-echo("Logged as" . $user);
+echo("Logged as : <b>" . $user);
 
 ?>
